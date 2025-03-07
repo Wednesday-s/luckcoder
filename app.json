@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "luckcoder",
+    "slug": "luckcoder",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zhanghaohao96org.luckcoder"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zhanghaohao96org.luckcoder"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "911e5daa-96cf-4d35-ae5d-a14ad10276fe"
+      }
+    },
+    "owner": "zhanghaohao_96-org",
+    "updates": {
+      "url": "https://u.expo.dev/911e5daa-96cf-4d35-ae5d-a14ad10276fe"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
